@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 class="hover-effect" data-tooltip="This is  Content Management Tool (CMT) is website that simplifies the creation, editing, and organization of digital content, like text and media, on websites. It provides an easy-to-use interface for users to manage web content without advanced technical skills, streamlining content publishing and collaboration.">Content Management Tool</h1>
+
+
+        <div id="addForm" class="article-form">
+            <h2>Add Blogs</h2>
+            <form id="article-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required><br>
+            
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" rows="4" required></textarea><br>
+            
+                <div class="file-input">
+                    <label for="image">Image:</label>
+                    <input type="file" id="image" name="image" accept="image/*">
+                </div>
+                <div class="file-input">
+                    <label for="video">Video:</label>
+                    <input type="file" id="video" name="video" accept="video/*">
+                </div>
+            
+            
+                <button type="button" id="submit">Submit</button>
+            </form>
+        </div>
+
+        <h2>POSTED BLOGS</h2>
+        <table id="articleTable" class="articles-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="article-list">
+                <!-- Articles will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        Designed By: Vishal Kumar Mahto
+    </div>
+
+    <script src="v.js"></script>
+</body>
+</html>
