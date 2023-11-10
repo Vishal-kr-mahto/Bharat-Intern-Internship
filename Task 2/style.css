@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(9, 170, 170, 14, 14);
+    color: #ffffff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: #2c3e50; 
+    color: #ffffff; 
+    border: 2px solid #1e272e; 
+    padding: 20px;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    border: 1px solid #95a5a6; 
+    margin: 10px;
+    padding: 15px;
+}
+
+.task-list li:hover {
+    border: 2px solid #566573; 
+    background-color: #2c3e50; 
+}
+
+.task-info h4 {
+    font-size: 24px; 
+    font-weight: bold;
+    color: #e74c3c; 
+    margin-bottom: 10px;
+}
+
+.task-due-date, .task-assigne {
+    font-size: 16px; 
+    color: #95a5a6; 
+    margin-bottom: 10px;
+}
+
+
+.create-task input,
+.create-task select,
+.create-task textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3498db; 
+    width: 100%;
+    background-color: #ecf0f1; 
+}
+
+.create-task textarea {
+    height: 120px; 
+}
+
+.create-task input[type="submit"] {
+    padding: 12px;
+    background-color: #2c3e50; 
+    color: #ffffff;
+    border: 2px solid #1e272e; 
+    cursor: pointer;
+}
+
+.create-task input[type="submit"]:hover {
+    background-color: #1e272e; 
+}
+
+
+.chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    background-color: #ecf0f1; 
+    padding: 15px;
+    color: #2c3e50; 
+}
+
